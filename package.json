@@ -1,0 +1,19 @@
+{
+  "name": "chichipui-form-helper",
+  "packageManager": "yarn@4.2.2",
+  "description": "chichi-pui投稿フォーム自動入力",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build --emptyOutDir",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx prettier . --write",
+    "zip": "rm ../chichipui-form-helper.zip; cd dist; zip -r ../../chichipui-form-helper.zip *"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1"
+  }
+}
