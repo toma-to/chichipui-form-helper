@@ -5,7 +5,10 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://www.chichi-pui.com/posts/upload/"],
+      "matches": [
+        "https://www.chichi-pui.com/posts/upload/",
+        "https://membership.chichi-pui.com/posts/images/upload/"
+      ],
       "js": ["index.js"]
     }
   ]
